@@ -26,6 +26,8 @@ function toKline(c: Candle): KLineData {
   };
 }
 
+
+
 export default function ChartView({ data, inputs, style, onHover }: Props) {
   const ref = useRef<HTMLDivElement | null>(null);
   const chartRef = useRef<Chart | null>(null);
